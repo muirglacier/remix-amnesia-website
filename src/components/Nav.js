@@ -25,26 +25,19 @@ const StyledLink = styled(Link)`
   font-size: 1.8rem;
   color: white;
   text-decoration: none;
-  margin: 0 3rem;
+  margin: 0 1rem;
   font-weight: 700;
-
-  &:last-child {
-    margin: 0;
-  }
 `
 
 const AboutLink = styled.a`
   font-size: 1.8rem;
   color: white;
   text-decoration: none;
-  margin: 0 3rem;
+  margin: 0 1rem;
   font-weight: 700;
 
   &:hover {
     cursor: pointer;
   }
-
-  &:last-child {
-    margin: 0;
   }
 `
