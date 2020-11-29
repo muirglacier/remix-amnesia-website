@@ -56,7 +56,8 @@ const Content = styled.div`
 `
 
 const ImageHolder = styled.div`
-  display: flex;
+  display: block;
+  text-align: center;
   padding-top: 30px;
   img{
     margin-left: auto;

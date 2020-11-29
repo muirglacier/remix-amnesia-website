@@ -19,6 +19,7 @@ const Nav = styled.nav`
   top: 3rem;
   right: 3rem;
   z-index: 1;
+  display: flex
 `
 
 const StyledLink = styled(Link)`
