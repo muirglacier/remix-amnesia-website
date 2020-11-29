@@ -61,7 +61,7 @@ const ImageHolder = styled.div`
   img{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
   }
 `
 
