@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 export default ({ children }) => (
   <>
     <Helmet>
-      <title>{`Superstylin | A Gatsby Theme with styled-components`}</title>
+      <title>{`Ethereum Amnesia IDE - Why tell Mark if you do not have to?`}</title>
       <link
         rel={'stylesheet'}
         href={
@@ -30,10 +30,10 @@ export default ({ children }) => (
     {children}
     <GitHub>
       <GitHubButton
-        href={'https://github.com/bntzio/gatsby-theme-superstylin'}
+        href={'https://github.com/muirglacier/remix-amnesia-project'}
         data-size={'large'}
         data-show-count={'true'}
-        aria-label={'Star bntzio/gatsby-theme-superstylin on GitHub'}
+        aria-label={'Star us on GitHub'}
       >
         Star
       </GitHubButton>

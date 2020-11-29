@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Superstylin',
-    description: 'A Gatsby Theme with styled-components'
+    title: 'Remix Amnesia IDE',
+    description: 'Why tell Mark if you do not have to?'
   },
   plugins: [
     {
