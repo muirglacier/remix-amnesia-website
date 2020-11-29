@@ -6,9 +6,8 @@ export default ({ setModal }) => (
   <Nav>
     <AboutLink onClick={() => setModal(prevState => !prevState)}>About</AboutLink>
     <StyledLink to={'https://github.com/muirglacier/remix-amnesia-project.git'}>Github</StyledLink>
-    <StyledLink to={'https://github.com/muirglacier/remix-amnesia-desktop/releases/download/0.10.7-dev/Remix.Amnesia.IDE-1.0.8.AppImage'}>Download for Linux</StyledLink>
-    <StyledLink to={'https://github.com/muirglacier/remix-amnesia-desktop/releases/download/0.10.7-dev/Remix.Amnesia.IDE-1.0.8-mac.zip'}>Download for MacOS</StyledLink>
-    <StyledLink to={'https://github.com/muirglacier/remix-amnesia-desktop/releases/download/0.10.7-dev/Remix.Amnesia.IDE.Setup.1.0.8.exe'}>Download for Windows</StyledLink>
+    <StyledLink to={'https://github.com/muirglacier/remix-amnesia-desktop/releases/download/0.10.7-dev/Remix.Amnesia.IDE-1.0.8.AppImage'}>Linux</StyledLink>
+    <StyledLink to={'https://github.com/muirglacier/remix-amnesia-desktop/releases/download/0.10.7-dev/Remix.Amnesia.IDE-1.0.8.dmg'}>MacOS</StyledLink>
 
   </Nav>
   
